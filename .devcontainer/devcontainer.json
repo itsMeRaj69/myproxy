@@ -1,5 +1,13 @@
-"features": {
-  "ghcr.io/tailscale/codespace/tailscale": {
-    "version": "latest"
-  }
+{
+  "name": "Debian + Tailscale",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "features": {
+    "ghcr.io/tailscale/codespace/tailscale": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/sshd": {
+      "version": "latest"
+    }
+  },
+  "remoteUser": "vscode"
 }
