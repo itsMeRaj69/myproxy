@@ -1,2 +1,2 @@
-# myproxy
-my personal proxy test.
+# simp proxy
+my simple personal proxy (test).
